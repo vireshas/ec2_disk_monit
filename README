@@ -5,9 +5,9 @@ Gets the disk usage information of all the instances and mails the same to the
 specified email address. There is an additional feature to notify when the
 disk usage increases above a margin.
 
-Run:
+Run :
 bundle install
 
-Usage:
+Usage :
 ec2 = EC2Helpers.new(70, ec2 access key, ec2 secret key, "example@ex.com")
 ec2.get_disk_info_of(ec2.app_servers)
