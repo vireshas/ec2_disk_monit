@@ -5,7 +5,7 @@ Gets the disk usage information of all the instances and mails the same to the
 specified email address. There is an additional feature to notify when the
 disk usage increases above a margin.
 
-Run:
+Run :
 bundle install
 
 Usage:
