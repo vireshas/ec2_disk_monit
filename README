@@ -9,5 +9,7 @@ Run:
 bundle install
 
 Usage:
+bundle exec irb
+require "./disk_monit.rb"
 ec2 = EC2Helpers.new(70, ec2 access key, ec2 secret key, "example@ex.com")
 ec2.get_disk_info_of(ec2.app_servers)
