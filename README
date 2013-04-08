@@ -1,5 +1,5 @@
 Monitor disk information of all the ec2 instances
-================================================
+==================
 
 Gets the disk usage information of all the instances and mails the same to the
 specified email address. There is an additional feature to notify when the
@@ -15,6 +15,5 @@ ec2 = EC2Helpers.new(70, ec2 access key, ec2 secret key, "example@ex.com")
 ec2.get_disk_info_of(ec2.app_servers)
 
 TODO:
-- 1. Reading the commands to be run on an instance from redis, so that we can push the commands
-     to a list and those stats will be mailed to you automagically.
-- 2. Dynamic filters for a given set of instances.
+  1. Ability to pull other stats.
+  2. Dynamic filters.
