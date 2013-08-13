@@ -1,9 +1,9 @@
-Monitor disk information of all the ec2 instances
+Monitor disk usage of all your ec2 instances
 ================================================
 
-Gets the disk usage information of all the instances and mails the same to the
-specified email address. There is an additional feature to notify when the
-disk usage increases above a margin.
+Gets the disk usage stats(df) of all your instances and sends an email to the
+specified email addresses. You can also add filters to get notifications when disk usage of a partition crosses a
+predefined value.
 
 Run:
 bundle install
